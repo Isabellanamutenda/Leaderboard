@@ -8,14 +8,14 @@ In this project I created a simple to-do-list using JavaScript, and webpack and 
 
 
 
-## Live Demo
-[Live Demo Link]()
+<!-- ## Live Demo
+[Live Demo Link]() -->
 
 
 ## Installation
 You can get this project to run on your local machine. 
-Clone it by running git clone https://github.com/Isabellanamutenda/To-do-list-js.git 
-Go go to the directory by using cd To-do-list-js 
+Clone it by running git clone https://github.com/Isabellanamutenda/Leaderboard.git 
+Go go to the directory by using cd Leaderboard
 run npm i
 run npm start
 
