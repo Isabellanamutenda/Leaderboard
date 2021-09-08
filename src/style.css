@@ -8,18 +8,17 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-  
+
 h1 {
   margin: 20px;
 }
-  
+
 main {
   height: 75%;
-  /* border: 5px solid #000; */
   display: flex;
   margin: 20px 80px;
 }
- 
+
 .main-item {
   padding: 0 50px;
 }
