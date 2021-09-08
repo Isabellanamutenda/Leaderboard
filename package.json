@@ -11,6 +11,10 @@
     "deploy": "gh-pages -d dist",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Isabellanamutenda/Leaderboard.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
