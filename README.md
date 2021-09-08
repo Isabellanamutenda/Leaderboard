@@ -1,5 +1,5 @@
 # Leaderboard
-In this project I created a simple to-do-list using JavaScript, and webpack and I have tested it.
+In this project I created a simple leaderboard using JavaScript, and webpack and I have tested it.
 
 # Built with
 - Webpack
