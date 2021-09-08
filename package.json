@@ -29,6 +29,9 @@
     "webpack-dev-server": "^4.1.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "express": "^4.17.1",
+    "webpack": "^5.52.0",
+    "webpack-dev-middleware": "^5.0.0"
   }
 }
