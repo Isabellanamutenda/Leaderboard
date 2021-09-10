@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4f02d055e5.js" crossorigin="anonymous"></script>
-    <title>Leaderboard</title>
+    <title>Leaderboard </title>
 <script defer src="/Leaderboard/main.js"></script></head>
 <body>
-
     <h1>Leaderboard</h1>
-    <main>
-        <div class="score-dash">
-            <h2>Recent scores</h2>
-            <input type="button" value="Refresh" id="refresh">
-            <div class="list">
-                <ul>
-                    
-                        <li>Name:100</li>
-                        <li>Name:20</li>
-                        <li>Name:50</li>
-                        <li>Name:78</li>
-                        <li>Name:125</li>
-                    
-                </ul>
-
+    <div id="container">
+        <div id="first-half">
+            
+            <div class = "flex-row">
+                <h2>Recent scores</h2><button type="button" class="button-main" id="refresh">Refresh</button>
             </div>
-
-
+            <ul id="scores"></ul>
         </div>
-        <form id="add-score" class="main-item">
+        <div id="second-half">
             <h2>Add your score</h2>
-            <input class="input" id="name" type="text" placeholder="Your name">
-            <input class="input" id="score" type="text" placeholder="Your score">
-            <input id="submit" type="submit" value="Submit">
-        </form>
-    </main>
-    <footer>
-
-    </footer>
+            <form id="form">
+                <input type="text" name="name" placeholder="Your name" class="input-text" maxlength="10">
+                <input type="text" name="score" placeholder="Your score" class="input-text" maxlength="6">
+                <button type="button" class="button-main" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer><p>Ⓒ 2021 Robert Baiesita</p></footer>
 </body>
 </html>
+
 
